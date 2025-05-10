@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES2020", // Ou outra versão do ECMAScript que o seu Node.js suporte
+      "module": "CommonJS", // Ou "ES Modules" se você estiver usando módulos ES
+      "outDir": "./dist",   // Diretório onde os arquivos JavaScript compilados serão gerados
+      "strict": true,
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["./src/**/*"], // Inclui todos os arquivos .ts dentro da pasta src
+    "exclude": ["node_modules"]
+  }
